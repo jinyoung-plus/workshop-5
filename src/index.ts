@@ -1,3 +1,5 @@
+// src/index.ts
+
 import { launchNodes } from "./nodes/launchNodes";
 import { Value } from "./types";
 

@@ -1,3 +1,5 @@
+// src/types.ts
+
 export type NodeState = {
   killed: boolean;
   x: Value | null;
@@ -5,4 +7,4 @@ export type NodeState = {
   k: number | null;
 };
 
-export type Value = 0 | 1 | "?";
+export type Value = 0 | 1 | "?"| number;
